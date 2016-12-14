@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="blue">#0000ff</color>
+    <color name="green">#9cbe08</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!--下面为主要颜色-->
+    <!--这是主大红色调-->
+    <color name="appColorPrimary">#ff4343</color>
+    <!--<color name="appColorPrimary">#E02413</color>-->
+    <!--重要文字颜色,用于突出的标题和颜色-->
+    <color name="appColorImportantColor">#272727</color>
+    <!--主要颜色辅助说明-->
+    <color name="appColorImportantColorSub">#333</color>
+    <!--次要文字,用于次要文字说明和次要图标-->
+    <color name="appColorLessImportantr">#787878</color>
+    <!--次要文字,次要文字辅助说明-->
+    <color name="appColorLessImportantrSub">#cfcfcf</color>
+    <!--用于分割线-->
+    <color name="appColorSpitLine">#e5e5e5</color>
+    <!--模板底色 聊天底色-->
+    <color name="appColorBackGround">#e5e5e5</color>
+    <!--mineFragment背景颜色-->
+    <color name="mineColorBackground">#FAFAFA</color>
+    <!--白色-->
+    <color name="appWhiteColor">#ffffff</color>
+
+    <color name="bg_Gray">#CCCCCC</color>
+
+    <color name="purple">#8e8bf2</color>
+
+    <color name="dark">#4f4f4f</color>
+
+    <color name="red">#ff0000</color>
+
+    <color name="hintColor">#d7d7d7</color>
+    <color name="brown">#f2af19</color>
+
+    <!-- 浅灰色 -->
+    <color name="bg_Gray_light">#EEEEEE</color>
+
+    <!-- 白色 -->
+    <color name="tv_White">#FFFFFF</color>
+    <!-- 黑色 -->
+    <color name="tv_Black">#000000</color>
+
+    <color name="tv_Red">#CC0000</color>
+    <!--分割线的颜色 -->
+    <color name="item_divider">#ffd7d7d7</color>
+    <color name="message_item_bg">#eeeeee</color>
+    <color name="black_overlay">#66000000</color>
+    <!--MineFragment-->
+    <color name="main">#63C3FF</color>
+    <color name="actionbar_title_color">@android:color/white</color>
+
+
+    <color name="colorPrimary01">#594691</color>
+    <color name="colorPrimaryDark01">#3e2d70</color>
+    <color name="bgBackSideColor">#f4f0ff</color>
+    <color name="bgTitleLeft">#594691</color>
+    <color name="bgTitleRight">#ffffff</color>
+    <color name="bgContentTop">#594691</color>
+    <color name="bgContent">#ffffff</color>
+    <color name="contentDividerLine">#e0e0e0</color>
+    <color name="contentBadgeTitle">#a9a9a9</color>
+    <color name="titleBadgeTitle">#adafb1</color>
+    <color name="titleBadgeText">#adafb1</color>
+    <color name="mainTextColor">#343d43</color>
+    <color name="btnRequest">#ffbf12</color>
+
+    <color name="black_overlay01">#66000000</color>
+    <color name="address_select_bg">#dddddd</color>
+
+</resources>

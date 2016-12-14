@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/item_detail_product_des_rl_container_normal"
+        android:visibility="gone"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@color/appColorPrimary"
+            android:id="@+id/item_detail_product_des_tv_newPrice"
+            android:text="¥99"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:textColor="@color/appColorLessImportantr"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/item_detail_product_des_tv_newPrice"
+            android:id="@+id/item_detail_product_des_tv_oldPrice"
+            android:text="¥99"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+
+        <RatingBar
+            android:layout_alignParentRight="true"
+            android:id="@+id/item_detail_product_des_ratingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="16dp"
+            android:layout_marginTop="4dp"
+            android:isIndicator="true"
+            android:progressDrawable="@drawable/layerlist_ratingbar"
+            android:rating="2.5" />
+        <TextView
+            android:textSize="16dp"
+            android:textColor="@color/appColorLessImportantr"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@+id/item_detail_product_des_ratingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="商品评分"
+            />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/item_detail_product_des_ll_container_limit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:background="#f23364"
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/item_detail_product_des_tv_limitPrice"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@color/appWhiteColor"
+
+                android:text="¥99"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/item_detail_product_des_tv_lessPrice"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/appWhiteColor"
+                android:layout_centerVertical="true"
+                android:layout_below="@+id/item_detail_product_des_tv_limitPrice"
+
+                android:text="[京东秒杀]便宜30元"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:background="#f1bfbf"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+        <TextView
+            android:layout_marginTop="5dp"
+            android:textColor="#f23364"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/item_detail_product_des_tv_leftTime"
+            android:text="距离结束还剩:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+            <cn.iwgang.countdownview.CountdownView
+                android:id="@+id/item_detail_product_des_countdownView_time"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/item_detail_product_des_tv_leftTime"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:isHideTimeBackground="false"
+                app:timeBgColor="#e4274f"
+                app:timeBgSize="12dp"
+                app:timeBgRadius="5dp"
+                app:timeTextColor="#fff"
+                app:timeTextSize="12sp"
+
+                app:isShowHour="true"
+                app:isShowMinute="true"
+                app:isShowSecond="true"
+                app:isSuffixTextBold="true"
+                app:isTimeTextBold="true"
+                app:suffixGravity="center"
+                app:suffixTextColor="#f00"
+                app:suffixTextSize="15sp"
+                app:timeBgBorderRadius="5dp"
+                app:suffix=":" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:textSize="18dp"
+        android:textColor="@color/appColorImportantColor"
+        android:id="@+id/item_detail_product_des_tv_name"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="时尚女裙"
+        />
+    <TextView
+        android:textColor="@color/appColorLessImportantr"
+        android:layout_marginTop="10dp"
+        android:id="@+id/item_detail_product_des_tv_inventoryArea"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="[配货]:全国"
+        />
+
+
+</LinearLayout>

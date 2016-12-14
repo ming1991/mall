@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <!--底部 一排按钮-->
+    <FrameLayout
+        android:id="@+id/flDetailProductButn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"></FrameLayout>
+
+
+    <ScrollView
+        android:paddingTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/flDetailProductButn">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!--轮播图-->
+            <FrameLayout
+
+                android:background="@color/bg_Gray_light"
+                android:id="@+id/flDetailProductPic"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"></FrameLayout>
+
+            <!--描述-->
+            <FrameLayout
+
+                android:id="@+id/flDetailProductDes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></FrameLayout>
+            <View
+                android:background="@color/bg_Gray_light"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"/>
+
+
+            <!--白条+加已选-->
+            <FrameLayout
+
+                android:layout_marginTop="5dp"
+                android:id="@+id/flDetailProductSelect"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></FrameLayout>
+
+            <View
+                android:background="@color/bg_Gray_light"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"/>
+
+            <!--评论-->
+            <FrameLayout
+                android:id="@+id/flDetailProductComment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></FrameLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

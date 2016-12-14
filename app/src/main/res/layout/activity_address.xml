@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_address"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.itheima31.jdmall.activity.AddressActivity">
+
+    <TextView
+        android:id="@+id/act_address_manager_top_title_tv"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:drawableLeft="@drawable/head_back"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="收货地址管理"
+        android:textColor="@color/appColorImportantColor"
+        android:textSize="@dimen/TitleTextSize"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/appColorBackGround"/>
+
+    <FrameLayout
+        android:id="@+id/act_address_manager_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+    </FrameLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/act_address_new_address_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/appColorPrimary"
+            android:text="@string/btn_new_address_name"
+            android:textColor="@color/appWhiteColor"
+            />
+    </RelativeLayout>
+
+
+</LinearLayout>

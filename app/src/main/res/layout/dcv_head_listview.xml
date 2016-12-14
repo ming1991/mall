@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="110dp">
+
+    <com.itheima31.jdmall.widgets.DCVheadListView
+        android:id="@+id/dcv_head_listView"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="2dp"
+        android:background="#fff"
+        android:cacheColorHint="#00000000"
+        >
+    </com.itheima31.jdmall.widgets.DCVheadListView>
+
+</RelativeLayout>

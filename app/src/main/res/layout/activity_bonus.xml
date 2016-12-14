@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/topbar_height"
+        android:background="@color/appColorPrimary"
+        android:gravity="center"
+        android:text="京东优惠券"
+        android:textColor="@color/white"
+        android:textSize="@dimen/TitleTextSize"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/activity_bonus"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@color/appColorPrimary"
+        android:dividerHeight="10dp">
+
+    </android.support.v7.widget.RecyclerView>
+
+</LinearLayout>

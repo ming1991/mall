@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+    >
+    <!-- <com.itheima31.jdmall.widgets.MailLineView
+         android:layout_width="match_parent"
+         android:layout_height="3dp">
+
+     </com.itheima31.jdmall.widgets.MailLineView>-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_margin="5dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/item_address_tv_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="刘伟壮"
+                android:textColor="@color/tv_Black"
+                android:textSize="@dimen/TitleTextSize"/>
+
+            <ImageView
+                android:id="@+id/item_address_iv_Default"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_toRightOf="@+id/item_address_tv_name"
+                android:src="@drawable/address_icon"
+                android:cropToPadding="false"
+                android:adjustViewBounds="false"/>
+
+            <TextView
+                android:id="@+id/item_address_tv_phone_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="15521391009"
+                android:textColor="@color/appColorLessImportantr"
+                android:textSize="@dimen/DesTextSize"/>
+
+            <TextView
+                android:id="@+id/item_address_tv_zipCode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="521000"
+                android:textColor="@color/appColorLessImportantr"
+                android:textSize="@dimen/DesTextSize"/>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/item_address_tv_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/string_space"
+            android:text="广东省深圳市宝安区新安街道留仙二路中粮商务园2栋13层"
+            android:textColor="@color/appColorLessImportantr"
+            android:textSize="@dimen/DesTextSize"/>
+    </LinearLayout>
+
+    <com.itheima31.jdmall.widgets.MailLineView
+        android:layout_width="match_parent"
+        android:layout_height="3dp">
+
+    </com.itheima31.jdmall.widgets.MailLineView>
+</LinearLayout>

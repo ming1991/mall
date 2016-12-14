@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_pay_and_deliver"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.itheima31.jdmall.activity.PayAndDeliverActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/app_actionbar_height">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="选择支付和配送"
+                android:textColor="@color/appColorImportantColor"
+                android:textSize="@dimen/TitleTextSize"/>
+
+            <ImageView
+                android:id="@+id/act_pay_and_deliver_headback"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/head_back"/>
+
+            <View
+                style="@style/DividerStyle"
+                android:layout_alignParentBottom="true">
+            </View>
+        </RelativeLayout>
+
+        <TextView
+            style="@style/SubTitleStyle"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="16dp"
+            android:drawableLeft="@drawable/paycard"
+            android:gravity="center_vertical"
+            android:text=" 支付方式:"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            >
+
+            <Button
+                android:id="@+id/pay_on_internet"
+                style="@style/PayTypeBtnStyle"
+                android:text="在线支付"
+                />
+
+            <Button
+                android:id="@+id/pay_after_receive"
+                style="@style/PayTypeBtnStyle"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="货到付款"
+                />
+
+            <Button
+                android:id="@+id/transfer_accounts"
+                style="@style/PayTypeBtnStyle"
+                android:text="公司转账"
+                />
+        </LinearLayout>
+
+
+        <TextView
+            style="@style/SubTitleStyle"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="16dp"
+            android:drawableLeft="@drawable/deliver_icon"
+            android:gravity="center_vertical"
+            android:text=" 配送方式:"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="30dp"
+            android:paddingRight="10dp"
+            >
+
+            <Button
+                android:id="@+id/deliver_jingdong"
+                style="@style/DeliverTypeBtnStyle"
+                android:text="京东快递"
+                />
+
+            <Button
+                android:id="@+id/deliver_other"
+                style="@style/DeliverTypeBtnStyle"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="15dp"
+                android:text="时间不限，工作日双休日及公众假期均可送货"
+                />
+
+            <Button
+                android:id="@+id/deliver_self"
+                style="@style/DeliverTypeBtnStyle"
+                android:text="上门自提"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/act_pay_and_deliver_confirm"
+        android:layout_width="150dp"
+        android:layout_height="@dimen/app_actionbar_height"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:background="@color/appColorPrimary"
+        android:text="确定"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/SubTitleTextSize"/>
+</RelativeLayout>

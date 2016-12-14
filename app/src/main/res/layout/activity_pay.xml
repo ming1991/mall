@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/activity_pay"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@android:color/background_light"
+              android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/app_actionbar_height"
+        android:layout_alignParentTop="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="京东收银台"
+            android:textColor="@color/appColorImportantColor"
+            android:textSize="@dimen/TitleTextSize"/>
+
+        <ImageView
+            android:id="@+id/act_pay_headback"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/head_back"/>
+
+        <TextView
+            android:id="@+id/act_pay_order"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:text="订单中心"
+            android:textColor="@color/appColorLessImportantr"
+            android:textSize="@dimen/SubTitleTextSize"/>
+    </RelativeLayout>
+
+    <View
+        style="@style/DividerStyle">
+    </View>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="11dp"
+        android:paddingLeft="5dp"
+        android:paddingTop="10dp">
+
+        <TextView
+            style="@style/PayInfoLeftTextStyle"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="8dp"
+            android:text="订单金额"
+            android:textColor="@color/appColorLessImportantr"
+            android:textSize="@dimen/SubTitleTextSize"/>
+
+        <TextView
+            style="@style/PayInfoRightTextStyle"
+            android:layout_gravity="center_vertical"
+            android:text="¥107.00元">
+        </TextView>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/act_pay_jingdong_container"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/selector_btn_bg"
+        android:paddingBottom="8dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:paddingTop="8dp">
+
+        <ImageView
+            android:id="@+id/act_pay_jingdong_iv"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:src="@drawable/adp"
+            />
+
+        <TextView
+            android:id="@+id/act_pay_jingdong_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@id/act_pay_jingdong_iv"
+            android:text="京东支付"
+            android:textColor="@color/appColorImportantColorSub"
+            android:textSize="@dimen/SubTitleTextSize"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@id/act_pay_jingdong_title"
+            android:text="京东金融旗下"
+            android:textColor="@color/appColorLessImportantr"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@id/act_pay_jingdong_iv"
+            android:text="女装99减3,199减5(每日限一单)"
+            android:textColor="@color/appColorPrimary"
+            android:textSize="@dimen/DesTextSize"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/forward_btn"
+            />
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@color/bg_Gray_light"/>
+
+    <TextView
+        style="@style/SubTitleStyle"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="其他支付方式"
+        android:textColor="@color/appColorLessImportantr"/>
+
+    <RelativeLayout
+        android:id="@+id/act_pay_weixin_container"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/selector_btn_bg"
+        android:paddingBottom="8dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:paddingTop="8dp">
+
+        <ImageView
+            android:id="@+id/act_pay_weixin_iv"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:src="@drawable/weixin_pay"
+            />
+
+        <TextView
+            android:id="@+id/act_pay_weixin_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@id/act_pay_weixin_iv"
+            android:text="微信支付"
+            android:textColor="@color/appColorImportantColorSub"
+            android:textSize="@dimen/SubTitleTextSize"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@id/act_pay_weixin_iv"
+            android:text="微信安全支付"
+            android:textColor="@color/appColorLessImportantr"
+            android:textSize="@dimen/DesTextSize"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/forward_btn"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/act_pay_alipay_container"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/selector_btn_bg"
+        android:paddingBottom="8dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:paddingTop="8dp">
+
+        <ImageView
+            android:id="@+id/act_pay_alipay_iv"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:src="@drawable/alipay"
+            />
+
+        <TextView
+            android:id="@+id/act_pay_alipay_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@id/act_pay_alipay_iv"
+            android:text="支付宝支付"
+            android:textColor="@color/appColorImportantColorSub"
+            android:textSize="@dimen/SubTitleTextSize"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@id/act_pay_alipay_iv"
+            android:text="支付宝快捷支付"
+            android:textColor="@color/appColorLessImportantr"
+            android:textSize="@dimen/DesTextSize"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/forward_btn"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/act_pay_fast_container"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/selector_btn_bg"
+        android:paddingBottom="8dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:paddingTop="8dp">
+
+        <ImageView
+            android:id="@+id/act_pay_card_iv"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:src="@drawable/fast_pay"
+            />
+
+        <TextView
+            android:id="@+id/act_pay_card_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@id/act_pay_card_iv"
+            android:text="快捷支付"
+            android:textColor="@color/appColorImportantColorSub"
+            android:textSize="@dimen/SubTitleTextSize"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@id/act_pay_card_iv"
+            android:text="银行卡快捷支付服务"
+            android:textColor="@color/appColorLessImportantr"
+            android:textSize="@dimen/DesTextSize"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/forward_btn"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/act_pay_apple_container"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/selector_btn_bg"
+        android:paddingBottom="8dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:paddingTop="8dp">
+
+        <ImageView
+            android:id="@+id/act_pay_apple_iv"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:src="@drawable/apple_pay"
+            />
+
+        <TextView
+            android:id="@+id/act_pay_apple_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@id/act_pay_apple_iv"
+            android:text="设置Apple Pay"
+            android:textColor="@color/appColorImportantColorSub"
+            android:textSize="@dimen/SubTitleTextSize"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@id/act_pay_apple_iv"
+            android:text="初次使用请先设置Apple Pay"
+            android:textColor="@color/appColorLessImportantr"
+            android:textSize="@dimen/DesTextSize"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/forward_btn"
+            />
+
+    </RelativeLayout>
+
+</LinearLayout>
+

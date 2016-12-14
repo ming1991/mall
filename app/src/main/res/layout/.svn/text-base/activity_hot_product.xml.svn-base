@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/titles"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="#00000000"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp">
+
+        <ImageView
+            android:id="@+id/actionbar_home_layout_scan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/bast_actionbar_back"/>
+
+        <EditText
+            android:id="@+id/actionbar_home_layout_edit_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/actionbar_texst_bg_shape"
+            android:drawableLeft="@mipmap/actionbar_text_find"
+            android:drawablePadding="10dp"
+            android:drawableRight="@mipmap/actionbar_text_voice"
+            android:gravity="center_vertical"
+            android:hint="搜索京东商品/店铺"
+            android:padding="5dp"
+            android:textColorHint="#9c9c9c"
+            android:textSize="15dp"/>
+
+        <ImageView
+            android:id="@+id/actionbar_message_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/action_bar_message_selector"/>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/haibao1"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/fushi_xiebao"/>
+
+            <ImageView
+                android:id="@+id/haibao2"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginTop="10dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/jiadian"/>
+
+            <ImageView
+                android:id="@+id/haibao3"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginTop="10dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/jidong_market"/>
+
+            <ImageView
+                android:id="@+id/haibao4"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginTop="10dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/jingdong_shenxian"/>
+
+            <ImageView
+                android:id="@+id/haibao5"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginTop="10dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/jujia"/>
+
+            <ImageView
+                android:id="@+id/haibao6"
+
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginTop="10dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/shouji"/>
+
+            <WebView
+                android:id="@+id/web"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"></WebView>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

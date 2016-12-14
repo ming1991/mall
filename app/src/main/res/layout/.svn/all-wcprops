@@ -1,0 +1,161 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/JDMall/!svn/ver/278/trunk/JDMall/app/src/main/res/layout
+END
+activity_splash.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/JDMall/!svn/ver/277/trunk/JDMall/app/src/main/res/layout/activity_splash.xml
+END
+activity_limitbuys.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/JDMall/!svn/ver/258/trunk/JDMall/app/src/main/res/layout/activity_limitbuys.xml
+END
+activity_login.xml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/JDMall/!svn/ver/278/trunk/JDMall/app/src/main/res/layout/activity_login.xml
+END
+activity_robot.xml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/JDMall/!svn/ver/260/trunk/JDMall/app/src/main/res/layout/activity_robot.xml
+END
+view_header_placeholder.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/JDMall/!svn/ver/271/trunk/JDMall/app/src/main/res/layout/view_header_placeholder.xml
+END
+splash_bg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/JDMall/!svn/ver/277/trunk/JDMall/app/src/main/res/layout/splash_bg.xml
+END
+dcv_headlin_activitymain.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/JDMall/!svn/ver/273/trunk/JDMall/app/src/main/res/layout/dcv_headlin_activitymain.xml
+END
+view_spinner.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/JDMall/!svn/ver/263/trunk/JDMall/app/src/main/res/layout/view_spinner.xml
+END
+cell.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/JDMall/!svn/ver/273/trunk/JDMall/app/src/main/res/layout/cell.xml
+END
+activity_log_out.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/JDMall/!svn/ver/278/trunk/JDMall/app/src/main/res/layout/activity_log_out.xml
+END
+item_detail_comment_listview.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/JDMall/!svn/ver/260/trunk/JDMall/app/src/main/res/layout/item_detail_comment_listview.xml
+END
+item_show_newproduct.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/JDMall/!svn/ver/263/trunk/JDMall/app/src/main/res/layout/item_show_newproduct.xml
+END
+activity_address_add.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/JDMall/!svn/ver/278/trunk/JDMall/app/src/main/res/layout/activity_address_add.xml
+END
+item_shoppingcart_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/JDMall/!svn/ver/263/trunk/JDMall/app/src/main/res/layout/item_shoppingcart_list.xml
+END
+view_kenburns.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/JDMall/!svn/ver/271/trunk/JDMall/app/src/main/res/layout/view_kenburns.xml
+END
+main_chat_send_msg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/JDMall/!svn/ver/260/trunk/JDMall/app/src/main/res/layout/main_chat_send_msg.xml
+END
+main_chatting.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/JDMall/!svn/ver/260/trunk/JDMall/app/src/main/res/layout/main_chatting.xml
+END
+activity_dcv_headline.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/JDMall/!svn/ver/273/trunk/JDMall/app/src/main/res/layout/activity_dcv_headline.xml
+END
+main_chat_from_msg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/JDMall/!svn/ver/260/trunk/JDMall/app/src/main/res/layout/main_chat_from_msg.xml
+END
+cell_content_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/JDMall/!svn/ver/273/trunk/JDMall/app/src/main/res/layout/cell_content_layout.xml
+END
+item_spinnerview_size.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/JDMall/!svn/ver/263/trunk/JDMall/app/src/main/res/layout/item_spinnerview_size.xml
+END
+activity_address2.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/JDMall/!svn/ver/262/trunk/JDMall/app/src/main/res/layout/activity_address2.xml
+END
+cell_title_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/JDMall/!svn/ver/273/trunk/JDMall/app/src/main/res/layout/cell_title_layout.xml
+END
+item_mine_fragment.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/JDMall/!svn/ver/262/trunk/JDMall/app/src/main/res/layout/item_mine_fragment.xml
+END
+item_home_top_topic.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/JDMall/!svn/ver/257/trunk/JDMall/app/src/main/res/layout/item_home_top_topic.xml
+END
+item_spinnerview_color.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/JDMall/!svn/ver/263/trunk/JDMall/app/src/main/res/layout/item_spinnerview_color.xml
+END

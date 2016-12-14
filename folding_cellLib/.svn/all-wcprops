@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/JDMall/!svn/ver/278/trunk/JDMall/folding_cellLib
+END
+proguard-rules.pro
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/JDMall/!svn/ver/273/trunk/JDMall/folding_cellLib/proguard-rules.pro
+END
+.gitignore
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/JDMall/!svn/ver/273/trunk/JDMall/folding_cellLib/.gitignore
+END
+build.gradle
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/JDMall/!svn/ver/273/trunk/JDMall/folding_cellLib/build.gradle
+END
+folding-cell.iml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/JDMall/!svn/ver/273/trunk/JDMall/folding_cellLib/folding-cell.iml
+END
+folding_cellLib.iml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/JDMall/!svn/ver/278/trunk/JDMall/folding_cellLib/folding_cellLib.iml
+END

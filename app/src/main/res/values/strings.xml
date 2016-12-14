@@ -1,0 +1,120 @@
+<resources>
+    <string name="app_name">JDMall</string>
+
+    <!--主页面底部标签String-->
+    <array name="mian_activity_bottom_tabs_name">
+        <item>首页</item>
+        <item>分类</item>
+        <item>发现</item>
+        <item>购物车</item>
+        <item>我的</item>
+    </array>
+
+    <!--主页面底部标签 tag 可以用于获取fragment-->
+    <array name="mian_activity_bottom_tabs_tag">
+        <item>home</item>
+        <item>classify</item>
+        <item>discover</item>
+        <item>shoppingcart</item>
+        <item>mine</item>
+    </array>
+
+    <!--我的 -->
+    <array name="mine_fragment_lv_lists">
+        <item>我的订单</item>
+        <item>优惠卷/礼品卡</item>
+        <item>宝贝收藏</item>
+        <item>账户中心</item>
+        <item>地址管理</item>
+    </array>
+
+    <!--我的 设置 注销界面-->
+    <array name="mine_fragment_lv_setting">
+        <item>设置地理位置信息</item>
+        <item>亮度调节</item>
+        <item>非WLAN环境手动下载图片</item>
+        <item>WLAN环境下自动更新</item>
+        <item>字体设置</item>
+        <item>应用推荐</item>
+        <item>关于</item>
+    </array>
+    <array name="max_string">
+        <item>京东咚咚</item>
+        <item>京东客服</item>
+        <item>系统通知</item>
+        <item>我的京东</item>
+        <item>店铺签到</item>
+        <item>京东支付</item>
+        <item>京东物流</item>
+        <item>京东游戏</item>
+    </array>
+    <array name="min_string">
+
+        <item>点击查看您与客服的沟通记录</item>
+        <item>您好，京东手机客服很高兴为您服务</item>
+        <item>尊敬的客户，我们已经收到您的服务单23877841244中的商品，我们讲在1-2个工作日内为您处理</item>
+        <item>您收到了3条优惠信息，请点击查看</item>
+        <item>签到赢京豆，优惠券，更有平板手机等豪礼相送</item>
+        <item>您的订单322156322145已完成付款，请您耐心等待，我们将很快为您配送</item>
+        <item>您的订单242587431234已完成，感谢您对京东的支持，欢迎再次光临。期待您对本次购物进行评价</item>
+        <item>我在天书世界等你</item>
+
+    </array>
+    <string name="title_activity_login">loginIn</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="btn_new_address_name">+ 新建地址</string>
+
+    <string name="name">收货人:%1$s</string>
+    <string name="phoneNumber">电话:%1$s</string>
+    <string name="address">收货地址:%1$s</string>
+    <string name="invoiceType">发票类型:%1$s</string>
+    <string name="invoiceContent">内容:%1$s</string>
+    <string name="invoiceTitle">发票抬头:%1$s</string>
+    <string name="price">¥%1$s</string>
+    <string name="productNum">数量:×%1$s</string>
+    <string name="addPrice">+ ¥%1$s</string>
+    <string name="actualPayment">实付款:¥%1$s</string>
+
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="order_id_mock" translatable="false"># 110_119</string>
+    <string name="price_mock" translatable="false">$25</string>
+    <string name="requests_count_mock" translatable="false">5</string>
+    <string name="requests_count_badge" translatable="false">REQUESTS</string>
+    <string name="weight_mock" translatable="false">50 oz</string>
+    <string name="weight_badge" translatable="false">WEIGHT</string>
+    <string name="pledge_mock" translatable="false">$150</string>
+    <string name="pledge_badge" translatable="false">PLEDGE</string>
+    <string name="sender_badge" translatable="false">SENDER</string>
+    <string name="client_name_mock" translatable="false">Edward Norton</string>
+    <string name="rating_mock" translatable="false">(26)</string>
+    <string name="from_badge" translatable="false">FROM</string>
+    <string name="to_badge" translatable="false">TO</string>
+    <string name="delivery_date_badge" translatable="false">DELIVERY DATE</string>
+    <string name="delivery_time_mock" translatable="false">6:30 pm</string>
+    <string name="delivery_date_mock" translatable="false">May 16, 2016</string>
+    <string name="deadline_badge" translatable="false">REQUEST DEADLINE</string>
+    <string name="deadline_time_mock" translatable="false">24 minutes</string>
+    <string name="request_btn_text" translatable="false">跳转申请界面</string>
+    <string name="btn_annotation_mock" translatable="false">详情请进入申请界面咨询</string>
+    <string name="content_from1_mock">W 90th St</string>
+    <string name="content_from2_mock">New York, NY 10025</string>
+    <string name="content_to1_mock">46th Ave</string>
+    <string name="content_to2_mock">Woodside, NY 11101</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+</resources>

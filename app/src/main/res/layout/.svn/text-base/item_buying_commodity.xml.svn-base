@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:layout_height="match_parent"
+                android:onClick="onItemClick"
+
+>
+    <ImageView
+        android:id="@+id/buying_commodity_image"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:background="@android:color/black"
+        android:layout_centerVertical="true"
+    />
+
+    <com.itheima31.jdmall.view.MyTimerView
+        android:layout_marginLeft="10dp"
+        android:id="@+id/item_buying_timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"></com.itheima31.jdmall.view.MyTimerView>
+
+    <TextView
+        android:id="@+id/buying_commodity_name_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="雅培金装"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:layout_toRightOf="@id/buying_commodity_image"
+        android:layout_toLeftOf="@id/item_buying_timer"
+        android:layout_marginLeft="30dp"
+    />
+
+    <TextView
+        android:id="@+id/cost_price_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buying_commodity_name_tv"
+        android:layout_toRightOf="@id/buying_commodity_image"
+        android:layout_marginLeft="30dp"
+        android:textSize="14sp"
+        android:textColor="#7b7878"
+        android:text="￥2599"
+    />
+
+
+    <TextView
+        android:id="@+id/bargain_price_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@id/buying_commodity_image"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="15dp"
+        android:textSize="25sp"
+        android:textColor="#f00"
+        android:text="￥1599"
+    />
+
+    <TextView
+        android:id="@+id/panic_buying_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:text="5t56gy>"
+
+        android:textColor="@android:color/white"
+        android:background="@drawable/shape_yuanjiao"
+    />
+
+</RelativeLayout>

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/JDMall/!svn/ver/260/trunk/JDMall/app/src/main/java/com/itheima31/jdmall/robot
+END
+ChatMessageAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/JDMall/!svn/ver/260/trunk/JDMall/app/src/main/java/com/itheima31/jdmall/robot/ChatMessageAdapter.java
+END
+ChatMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/JDMall/!svn/ver/260/trunk/JDMall/app/src/main/java/com/itheima31/jdmall/robot/ChatMessage.java
+END
+Result.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/JDMall/!svn/ver/260/trunk/JDMall/app/src/main/java/com/itheima31/jdmall/robot/Result.java
+END
+HttpUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/JDMall/!svn/ver/260/trunk/JDMall/app/src/main/java/com/itheima31/jdmall/robot/HttpUtils.java
+END
+RobotActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/JDMall/!svn/ver/260/trunk/JDMall/app/src/main/java/com/itheima31/jdmall/robot/RobotActivity.java
+END
+CommonException.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/JDMall/!svn/ver/260/trunk/JDMall/app/src/main/java/com/itheima31/jdmall/robot/CommonException.java
+END

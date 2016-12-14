@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--秒杀倒计时-->
+    <declare-styleable name="Time">
+        <attr name="time" format="integer"/>
+    </declare-styleable>
+    <!--图片适配的自定义属性-->
+    <declare-styleable name="RatioLayout">
+        <attr name="MODE" format="enum">
+            <enum name="MODE_WIDTH" value="0">
+            </enum>
+            <enum name="MODE_HEIGHT" value="1">
+            </enum>
+        </attr>
+        <attr name="RATIO" format="float"></attr>
+    </declare-styleable>
+
+    <!-- Declare custom theme attributes that allow changing which styles are
+         used for button bars depending on the API level.
+         ?android:attr/buttonBarStyle is new as of API 11 so this is
+         necessary to support previous API levels. -->
+    <declare-styleable name="ButtonBarContainerTheme">
+        <attr name="metaButtonBarStyle" format="reference"/>
+        <attr name="metaButtonBarButtonStyle" format="reference"/>
+    </declare-styleable>
+</resources>

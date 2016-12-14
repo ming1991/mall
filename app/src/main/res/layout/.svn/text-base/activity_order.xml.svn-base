@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/order_relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="#fff"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/order_iv_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/head_btn_back_gray"/>
+
+        <TextView
+            android:id="@+id/order_tv_order"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="我的订单"
+            android:textColor="@color/appColorImportantColor"
+            android:textSize="20dp"/>
+
+        <ImageView
+            android:id="@+id/order_iv_show"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_toRightOf="@+id/order_tv_order"
+            android:paddingLeft="5dp"
+            android:src="@mipmap/expand"
+            />
+
+        <ImageView
+            android:id="@+id/order_iv_masage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:paddingRight="10dp"
+            android:src="@mipmap/actionbar_message_normal"/>
+
+        <ImageView
+            android:id="@+id/iv_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/order_tv_order"
+            android:layout_centerHorizontal="true"
+            android:layout_toLeftOf="@+id/order_iv_masage"
+            android:layout_toStartOf="@+id/order_iv_masage"
+            android:paddingRight="10dp"
+            android:src="@mipmap/actionbar_text_find"/>
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/order_month_ago_fl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    </FrameLayout>
+</LinearLayout>

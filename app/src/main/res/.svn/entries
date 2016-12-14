@@ -1,0 +1,67 @@
+10
+
+dir
+279
+https://192.168.20.210/svn/JDMall/trunk/JDMall/app/src/main/res
+https://192.168.20.210/svn/JDMall
+
+
+
+2016-10-30T15:43:45.084928Z
+278
+wizong
+has-props
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+68836d75-76c1-0f40-af80-29353ef817fe
+
+anim
+dir
+
+color
+dir
+
+drawable
+dir
+
+drawable-hdpi
+dir
+
+layout
+dir
+
+mipmap-hdpi
+dir
+
+mipmap-mdpi
+dir
+
+mipmap-xhdpi
+dir
+
+mipmap-xxhdpi
+dir
+
+mipmap-xxxhdpi
+dir
+
+values
+dir
+
+values-en
+dir
+
+values-w820dp
+dir
+

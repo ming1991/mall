@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@android:color/background_light"
+              android:fitsSystemWindows="true"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/app_actionbar_height"
+        android:layout_alignParentTop="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="京东支付"
+            android:textColor="@color/appColorImportantColor"
+            android:textSize="@dimen/TitleTextSize"/>
+
+        <ImageView
+            android:id="@+id/pop_pay_shut"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/shut_icon"/>
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/help_icon"/>
+    </RelativeLayout>
+
+    <View
+        style="@style/DividerStyle"
+        android:layout_height="2dp"></View>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="向京东商城支付"
+        android:textColor="@color/appColorImportantColor"
+        android:textSize="@dimen/SubTitleTextSize"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="¥107.00"
+        android:textColor="@color/appColorImportantColor"
+        android:textSize="30dp"/>
+
+    <View
+        style="@style/DividerStyle"
+        android:layout_height="2dp"
+        ></View>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center|left"
+            android:text="支付方式"
+            android:textColor="@color/appColorImportantColorSub"
+            android:textSize="@dimen/SubTitleTextSize"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0"
+            android:drawableLeft="@drawable/zsyh"
+            android:drawableRight="@drawable/forward_btn"
+            android:gravity="right|center_vertical"
+            android:text="招商银行信用卡(5329)  "
+            android:textColor="@color/appColorImportantColor"
+            android:textSize="@dimen/SubTitleTextSize"/>
+    </LinearLayout>
+
+    <View
+        style="@style/DividerStyle"
+        android:layout_height="2dp"
+        ></View>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="持卡人"
+            android:textColor="@color/appColorImportantColorSub"
+            android:textSize="@dimen/SubTitleTextSize"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="right|center_vertical"
+            android:text="**泽"
+            android:textColor="@color/appColorImportantColor"
+            android:textSize="@dimen/SubTitleTextSize"/>
+    </LinearLayout>
+
+    <View
+        style="@style/DividerStyle"
+        android:layout_height="2dp"></View>
+
+    <TextView
+        android:id="@+id/pop_pay_paynow"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginBottom="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="70dp"
+        android:background="@color/appColorPrimary"
+        android:gravity="center"
+        android:text="立即支付"
+        android:textColor="@color/white"
+        android:textSize="@dimen/TitleTextSize"/>
+</LinearLayout>

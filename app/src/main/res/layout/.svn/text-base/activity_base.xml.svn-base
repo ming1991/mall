@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/act_base_fl_title"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"></FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/act_base_fl_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#098"></FrameLayout>
+
+</LinearLayout>

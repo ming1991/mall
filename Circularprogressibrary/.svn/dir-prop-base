@@ -1,0 +1,9 @@
+K 10
+svn:ignore
+V 58
+*.iml
+build
+circularprogressibrary.iml
+proguard-rules.txt
+
+END

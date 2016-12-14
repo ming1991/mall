@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#fff"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="@drawable/order_delivery_rectangle"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/OrderDeliver"
+            android:text="发货方式:快递"/>
+
+        <TextView
+            style="@style/OrderDeliver"
+            android:text="物流编号:LP00004378908028"/>
+
+        <TextView
+            style="@style/OrderDeliver"
+            android:text="物流公司:韵达快递"/>
+
+        <TextView
+            style="@style/OrderDeliver"
+            android:text="运单号码:1200398535929"/>
+
+        <TextView
+            style="@style/OrderDeliver"
+            android:text="物流跟踪:以下信息由物流公司提供,如有疑问请查询官网"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="30dp"
+        android:text="物流详情"
+        android:textSize="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/order_delivery_rectangle"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/OrderDeliver"
+            android:text="2016-10-1 18:55:16:上海嘉定公司陆洲服务部KH发往豫S51467"/>
+
+        <TextView
+            style="@style/OrderDeliver"
+            android:text="2016-10-1 18:55:16:北京中转站"/>
+
+        <TextView
+            style="@style/OrderDeliver"
+            android:text="2016-10-1 18:55:16:由北京中转站进行中转,并发往 北京丰台区广安公司"/>
+
+        <TextView
+            style="@style/OrderDeliver"
+            android:text="2016-10-1 18:55:16:北京丰台区广安公司"/>
+
+        <TextView
+            style="@style/OrderDeliver"
+            android:text="2016-10-1 18:55:16:北京丰台区广安公司 进行扫描派送,指定派送员"/>
+
+        <TextView
+            style="@style/OrderDeliver"
+            android:text="2016-10-1 18:55:16:北京丰台区广安公司派送,由 张三 签收"/>
+
+    </LinearLayout>
+</LinearLayout>

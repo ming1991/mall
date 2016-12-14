@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_message_center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:background="@color/appColorSpitLine"
+    tools:context="com.itheima31.jdmall.activity.MessageCenterActivity">
+
+    <ListView
+        android:background="@color/appColorSpitLine"
+        android:id="@+id/act_message_center_lv"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+    >
+    </ListView>
+
+</LinearLayout>

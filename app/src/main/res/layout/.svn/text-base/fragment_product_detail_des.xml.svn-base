@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+    <ScrollView
+        android:id="@+id/item_detail_product_detail_sv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <com.itheima31.jdmall.widgets.CustomMarqueeTextView
+
+                android:id="@+id/fagment_product_detail_customMarqueeTextView"
+                android:padding="15dp"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:text="11.11购物狂欢节 国际品牌专场，3折起全场包邮!别说没提醒，这里一定有你喜欢的品牌。11月11日零点整，谢谢各位，五折先生登场。"
+                android:textColor="#f23465"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <ImageView
+
+                android:id="@+id/fagment_product_detail_iv1"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/d1"
+                />
+            <ImageView
+
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/d2"
+                />
+            <ImageView
+
+
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/d3"
+                />
+            <ImageView
+
+
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/d4"
+                />
+            <ImageView
+
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/d5"
+                />
+            <ImageView
+
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/d6"
+                />
+            <ImageView
+
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/d7"
+                />
+            <ImageView
+
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/d8"
+                />
+        </LinearLayout>
+    </ScrollView>
+    <ImageView
+        android:id="@+id/item_detail_product_detail_iv"
+        android:layout_margin="20dp"
+        android:src="@drawable/detail_product_detail_selector"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="160dp"
+        app:srcCompat="@drawable/gd"
+        android:id="@+id/lv_im"
+        />
+
+    <TextView
+
+        android:text="安插是的撒发打算打算打算撒打算打算打算打"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lv_tv1"
+        android:textSize="24dp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/lv_im"
+        android:layout_toEndOf="@+id/lv_im"/>
+
+    <TextView
+        android:text="¥129.00"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/lv_im"
+        android:layout_toRightOf="@+id/lv_im"
+        android:layout_toEndOf="@+id/lv_im"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/lv_tv3"/>
+
+    <TextView
+        android:text="¥129.00"
+        android:textColor="#f00"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lv_tv2"
+        android:layout_above="@+id/lv_tv3"
+        android:layout_toRightOf="@+id/lv_im"
+        android:layout_toEndOf="@+id/lv_im"/>
+
+    <TextView
+        android:text="178人关注%"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lv_tv2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/lv_tv5"/>
+
+    <TextView
+        android:background="@drawable/item_btn_bg_green"
+        android:text="提醒我"
+        android:gravity="center"
+        android:textSize="18dp"
+        android:textColor="#fff"
+        android:layout_width="70dp"
+        android:layout_height="30dp"
+        android:id="@+id/lv_tv4"
+        android:layout_above="@+id/lv_tv5"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"/>
+
+    <!--<ImageView
+        android:layout_width="30dp"
+        android:layout_height="60dp"
+        app:srcCompat="@drawable/qizhi"
+        android:id="@+id/imageView2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>-->
+
+    <TextView
+        android:background="@drawable/qizhi"
+        android:text="热卖"
+        android:textSize="12dp"
+        android:textColor="@color/appWhiteColor"
+        android:layout_width="30dp"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:id="@+id/textView2"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+    <TextView
+
+        android:background="@drawable/qizhi"
+        android:text="热卖"
+        android:textSize="12dp"
+        android:textColor="@color/appWhiteColor"
+        android:layout_width="30dp"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:id="@+id/qizhi"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+</RelativeLayout>

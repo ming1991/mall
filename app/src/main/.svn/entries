@@ -1,0 +1,74 @@
+10
+
+dir
+279
+https://192.168.20.210/svn/JDMall/trunk/JDMall/app/src/main
+https://192.168.20.210/svn/JDMall
+
+
+
+2016-10-31T00:30:30.389438Z
+279
+zhou
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+68836d75-76c1-0f40-af80-29353ef817fe
+
+AndroidManifest.xml
+file
+
+
+
+
+2016-10-31T02:44:55.160000Z
+abc819012bec0f4b0fe3463dd9bd642f
+2016-10-30T15:43:45.084928Z
+278
+wizong
+has-props
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+8317
+
+assets
+dir
+
+java
+dir
+
+jniLibs
+dir
+
+res
+dir
+

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.itheima31.jdmall.MainActivity">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+
+        <FrameLayout
+            android:background="@color/mineColorBackground"
+            android:id="@+id/act_mian_fl_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </FrameLayout>
+
+
+        <FrameLayout
+            android:id="@+id/act_mian_fl_title"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="#0000"
+            >
+        </FrameLayout>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true"
+        android:background="#ff0">
+
+        <RadioGroup
+            android:id="@+id/act_mian_radio_group"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/rect_back_border"
+            android:orientation="horizontal"
+            >
+
+            <RadioButton
+                android:id="@+id/act_mian_rb_home"
+                style="@style/MainRadioButtonStyle"
+                android:button="@drawable/main_tab_home_selector"
+                />
+
+            <RadioButton
+                android:id="@+id/act_mian_rb_classify"
+                style="@style/MainRadioButtonStyle"
+                android:button="@drawable/main_tab_classify_selector"/>
+
+            <RadioButton
+                android:id="@+id/act_mian_rb_discover"
+                style="@style/MainRadioButtonStyle"
+                android:button="@drawable/main_tab_discover_selector"/>
+
+            <RadioButton
+                android:id="@+id/act_mian_rb_shopping_cart"
+                style="@style/MainRadioButtonStyle"
+                android:button="@drawable/main_tab_shopping_cart_selector"/>
+
+            <RadioButton
+                android:id="@+id/act_mian_rb_mine"
+                style="@style/MainRadioButtonStyle"
+                android:button="@drawable/main_tab_mine_selector"/>
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="#00000000"
+            android:numColumns="5"
+            android:orientation="horizontal"
+            android:rating="1">
+
+            <Button
+                style="@style/MainRadioTransParentButton"/>
+
+            <Button
+                style="@style/MainRadioTransParentButton"
+                />
+
+            <Button
+                style="@style/MainRadioTransParentButton"
+                />
+
+            <Button
+                android:id="@+id/btn_msg"
+                style="@style/MainRadioTransParentButton"/>
+
+            <Button
+                style="@style/MainRadioTransParentButton"
+                />
+
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

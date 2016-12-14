@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <LinearLayout
+        android:padding="20dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <ImageView
+            android:scaleType="fitXY"
+            android:id="@+id/item_detail_comment_iv_icon"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ga"
+            android:layout_width="50dp"
+            android:layout_height="50dp"/>
+        <TextView
+            android:id="@+id/item_detail_comment_tv_name"
+            android:textSize="14dp"
+            android:textColor="@color/appColorImportantColorSub"
+            android:text="张***晓"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/item_detail_comment_iv_icon"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <ImageView
+           android:src="@drawable/io"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/item_detail_comment_tv_name"
+            android:layout_marginLeft="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:textColor="@color/appColorLessImportantr"
+            android:text="2016-10-26"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+        <View
+            android:layout_marginTop="5dp"
+            android:background="@color/appColorLessImportantrSub"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+    <RatingBar
+
+        android:layout_alignParentRight="true"
+        android:id="@+id/item_detail_product_des_ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="16dp"
+        android:layout_marginTop="5dp"
+        android:isIndicator="true"
+        android:progressDrawable="@drawable/layerlist_ratingbar"
+        android:rating="5" />
+    <TextView
+        android:id="@+id/item_detail_comment_tv_des"
+    android:textSize="16dp"
+    android:textColor="@color/appColorImportantColorSub"
+    android:text="值得拥有,好评如潮!"
+    android:layout_centerVertical="true"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>
+    <TextView
+        android:textColor="@color/appColorLessImportantr"
+        android:layout_marginTop="10dp"
+
+        android:text="购买类型:XXL"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_marginTop="5dp"
+
+        android:textColor="@color/appColorLessImportantr"
+        android:text="购买日期:2016-10-26"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <View
+        android:background="@color/appColorSpitLine"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"/>
+
+</LinearLayout>

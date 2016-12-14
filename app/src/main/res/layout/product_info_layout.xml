@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:paddingTop="20dp">
+
+        <ImageView
+            android:id="@+id/product_info_pic"
+            android:layout_width="100dp"
+            android:layout_height="130dp"
+            android:layout_marginRight="10dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/test_product_pic"/>
+
+        <TextView
+            android:id="@+id/product_info_des"
+            style="@style/ProductDesTextStyle"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="8dp"
+            android:layout_toRightOf="@id/product_info_pic"
+            android:gravity="center_vertical"
+            android:lines="2"
+            android:text="秋冬新款男装毛呢西装男士休闲西服外套上午男装韩版修身小西装"/>
+
+        <TextView
+            android:id="@+id/product_info_color"
+            style="@style/ProductDesTextStyle"
+            android:layout_width="120dp"
+            android:layout_below="@id/product_info_des"
+            android:layout_marginBottom="8dp"
+            android:layout_toRightOf="@id/product_info_pic"
+            android:text="规格:灰色"/>
+
+        <TextView
+            android:id="@+id/product_info_size"
+            style="@style/ProductDesTextStyle"
+            android:layout_width="120dp"
+            android:layout_below="@id/product_info_des"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/product_info_color"
+            android:text="尺码:M"/>
+
+        <TextView
+            android:id="@+id/product_info_price"
+            style="@style/ProductDesTextStyle"
+            android:layout_width="120dp"
+            android:layout_below="@id/product_info_color"
+            android:layout_toRightOf="@id/product_info_pic"
+            android:text="¥199.00"
+            android:textColor="@color/appColorPrimary"/>
+
+        <TextView
+            android:id="@+id/act_balance_product_num"
+            style="@style/ProductDesTextStyle"
+            android:layout_width="120dp"
+            android:layout_below="@id/product_info_size"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/product_info_price"
+            android:text="数量:×2"/>
+
+
+    </RelativeLayout>
+
+    <View style="@style/DividerStyle"></View>
+</LinearLayout>

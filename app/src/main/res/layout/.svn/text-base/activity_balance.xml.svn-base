@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:id="@+id/activity_balance"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/background_light"
+                tools:context="com.itheima31.jdmall.activity.BalanceActivity">
+
+    <RelativeLayout
+        android:id="@+id/act_balance_title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/app_actionbar_height"
+        android:layout_alignParentTop="true">
+
+        <TextView
+            android:id="@+id/act_balance_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="结算中心"
+            android:textColor="@color/appColorImportantColor"
+            android:textSize="@dimen/TitleTextSize"/>
+
+        <ImageView
+            android:id="@+id/act_balance_headback"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/head_back"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/act_balance_apply_container"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/app_actionbar_height"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/btn_normal">
+
+        <TextView
+            android:id="@+id/act_balance_apply"
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:background="@color/appColorPrimary"
+            android:gravity="center"
+            android:text="提交订单"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/SubTitleTextSize"
+            />
+
+        <TextView
+            android:id="@+id/act_balance_actual_payment"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_toLeftOf="@id/act_balance_apply"
+            android:gravity="center_vertical"
+            android:paddingRight="10dp"
+            android:text="实付款:¥199.00"
+            android:textColor="@color/appColorPrimary"
+            android:textSize="@dimen/DesTextSize"/>
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/act_balance_apply_container"
+        android:layout_below="@id/act_balance_title_bar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <RelativeLayout
+                android:id="@+id/act_balance_address_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_btn_bg"
+                android:paddingBottom="8dp"
+                android:paddingTop="8dp">
+
+                <ImageView
+                    android:id="@+id/act_balance_to_select_address"
+                    style="@style/ToNextStyle"/>
+
+                <LinearLayout
+                    android:id="@+id/act_balance_address_ll"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toLeftOf="@id/act_balance_to_select_address"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/act_balance_address_title"
+                        style="@style/SubTitleStyle"
+                        android:text="收货地址:"/>
+
+                    <TextView
+                        android:id="@+id/act_balance_name"
+                        style="@style/DesTextViewStyle"
+                        android:layout_width="match_parent"
+                        android:text="收货人:"/>
+
+                    <TextView
+                        android:id="@+id/act_balance_num"
+                        style="@style/DesTextViewStyle"
+                        android:layout_width="match_parent"
+                        android:text="电话:"/>
+
+                    <TextView
+                        android:id="@+id/act_balance_address"
+                        style="@style/DesTextViewStyle"
+                        android:layout_width="match_parent"
+                        android:layout_marginLeft="20dp"
+                        android:drawableLeft="@drawable/address_icon"
+                        android:gravity="center_vertical"
+                        android:text="收货地址:"/>
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/act_balance_pay_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_btn_bg"
+                android:paddingBottom="8dp"
+                android:paddingTop="8dp">
+
+                <ImageView
+                    android:id="@+id/act_balance_to_select_pay"
+                    style="@style/ToNextStyle"/>
+
+                <LinearLayout
+                    android:id="@+id/act_balance_pay_ll"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toLeftOf="@id/act_balance_to_select_pay"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/act_balance_pay_title"
+                        style="@style/SubTitleStyle"
+                        android:text="支付配送:">
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/act_balance_pay"
+                        style="@style/DesTextViewStyle"
+                        android:layout_width="match_parent"
+                        android:text="在线支付"/>
+
+                    <TextView
+                        android:id="@+id/act_balance_deliver_type"
+                        style="@style/DesTextViewStyle"
+                        android:layout_width="match_parent"
+                        android:text="京东快递"/>
+
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/act_balance_bill_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_btn_bg"
+                android:paddingBottom="8dp"
+                android:paddingTop="8dp">
+
+                <ImageView
+                    android:id="@+id/act_balance_to_select_bill"
+                    style="@style/ToNextStyle"/>
+
+                <LinearLayout
+                    android:id="@+id/act_balance_bill_ll"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toLeftOf="@id/act_balance_to_select_bill"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/act_balance_invoice_info"
+                        style="@style/SubTitleStyle"
+                        android:text="发票信息:"/>
+
+                    <TextView
+                        android:id="@+id/act_balance_invoice_type"
+                        style="@style/DesTextViewStyle"
+                        android:layout_width="match_parent"
+                        android:text="发票类型:个人"/>
+
+                    <TextView
+                        android:id="@+id/act_balance_invoice_content"
+                        style="@style/DesTextViewStyle"
+                        android:layout_width="match_parent"
+                        android:text="内容:图书"/>
+
+                    <TextView
+                        android:id="@+id/act_balance_invoice_title"
+                        style="@style/DesTextViewStyle"
+                        android:layout_width="match_parent"
+                        android:singleLine="true"
+                        android:text="发票抬头:"/>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <View style="@style/DividerStyle"></View>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/app_actionbar_height"
+                android:gravity="center"
+                android:text="商品详情"
+                android:textColor="@color/appColorImportantColorSub"
+                android:textSize="@dimen/TitleTextSize"/>
+
+            <View
+                style="@style/DividerStyle">
+            </View>
+
+            <LinearLayout
+                android:id="@+id/act_balance_product_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="8dp"
+                android:background="@color/bg_Gray_light"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="5dp">
+
+                <TextView
+                    style="@style/PayInfoLeftTextStyle"
+                    android:text="商品金额"/>
+
+                <TextView
+                    android:id="@+id/act_balance_price"
+                    style="@style/PayInfoRightTextStyle"
+                    android:text="¥199.00">
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="5dp">
+
+                <TextView
+                    style="@style/PayInfoLeftTextStyle"
+                    android:text="优惠金额"/>
+
+                <TextView
+                    style="@style/PayInfoRightTextStyle"
+                    android:text="- ¥0.00">
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="5dp">
+
+                <TextView
+                    style="@style/PayInfoLeftTextStyle"
+                    android:text="运费:"/>
+
+                <TextView
+                    android:id="@+id/act_balance_freight"
+                    style="@style/PayInfoRightTextStyle"
+                    android:text="+ ¥0.00">
+                </TextView>
+            </LinearLayout>
+
+            <View style="@style/DividerStyle"></View>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="5dp">
+
+                <TextView
+                    style="@style/PayInfoLeftTextStyle"
+                    android:text="总计:"/>
+
+                <TextView
+                    android:id="@+id/act_balance_total_price"
+                    style="@style/PayInfoRightTextStyle"
+                    android:text=" ¥199.00">
+                </TextView>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="12dp"
+                android:background="@color/bg_Gray_light"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

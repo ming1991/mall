@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Circularprogressibrary/Circularprogressibrary.iml" filepath="$PROJECT_DIR$/Circularprogressibrary/Circularprogressibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JDMall.iml" filepath="$PROJECT_DIR$/JDMall.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PagerSlidingTabStripLibrary/PagerSlidingTabStripLibrary.iml" filepath="$PROJECT_DIR$/PagerSlidingTabStripLibrary/PagerSlidingTabStripLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/folding_cellLib/folding_cellLib.iml" filepath="$PROJECT_DIR$/folding_cellLib/folding_cellLib.iml" />
+    </modules>
+  </component>
+</project>

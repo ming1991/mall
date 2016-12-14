@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="70dp"
+              android:background="@drawable/dcv_backgroud03"
+              android:padding="2dp"
+    >
+
+    <ImageView
+        android:id="@+id/item_discover_iv"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        />
+
+    <TextView
+        android:id="@+id/item_discover_tv"
+        style="@style/SubTitleStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:text="标题标题标题标题"
+        android:textColor="@color/appColorImportantColorSub"
+        android:textSize="22sp"
+        />
+
+    <TextView
+        android:id="@+id/item_discover_details"
+        style="@style/SubTitleStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:text="(详情加载中.... )"
+        android:textColor="@color/appColorLessImportantr"
+        android:textSize="15sp"
+        />
+</LinearLayout>

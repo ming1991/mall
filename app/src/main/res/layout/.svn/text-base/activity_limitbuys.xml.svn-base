@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:layout_width="match_parent"
+                  android:layout_height="48dp"
+                  android:background="#00000000"
+                  android:gravity="center_vertical"
+                  android:orientation="horizontal"
+                  android:paddingBottom="5dp"
+                  android:paddingTop="5dp">
+
+        <ImageView
+            android:id="@+id/actionbar_home_layout_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/bast_actionbar_back"/>
+
+        <TextView
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:text="限时抢购"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:id="@+id/actionbar_message_car"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/car"/>
+    </LinearLayout>
+
+
+    <com.astuetz.PagerSlidingTabStrip
+        android:id="@+id/tabs"
+        android:background="#edf7ff"
+        android:layout_width="match_parent"
+        android:layout_height="48dip"
+        app:pstsIndicatorColor="#82191c"
+        app:pstsDividerColor="#fff"
+        app:pstsIndicatorHeight="50dp"
+        app:pstsTabTextColor="#000"
+        app:pstsSelectedTabTextSize="18sp"
+        app:pstsSelectedTabTextColor="#fff"
+    />
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/limitbuys_vp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v4.view.ViewPager>
+
+</LinearLayout>

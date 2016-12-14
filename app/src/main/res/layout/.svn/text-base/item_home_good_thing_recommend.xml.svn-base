@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+    <View
+        style="@style/DividerStyle" />
+
+    <View
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/divider_height_middle"
+        android:layout_marginBottom="@dimen/home_item_margin"
+        android:background="@color/purple" />
+
+    <TextView
+        android:id="@+id/tv_recom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="20dp"
+        android:text="好货推荐"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#c63332"
+        android:textSize="@dimen/small_middle_text_size" />
+
+    <LinearLayout
+        android:id="@+id/goodThing_table_ll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tv_recom"
+        android:layout_marginTop="14dp"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <RelativeLayout
+                android:id="@+id/layout_recom"
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_weight="1" >
+
+                <ImageView
+                    android:id="@+id/ImageView03"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/zhidemai" />
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="6dp"
+                    android:src="@drawable/worth_to_buy" />
+
+                <TextView
+                    android:id="@+id/tv_recom_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/imageView4"
+                    android:layout_toRightOf="@+id/imageView4"
+                    android:text="值得买"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#b61a19"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/small_middle_text_size" />
+
+                <TextView
+                    android:id="@+id/tv_recom_subtitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/imageView4"
+                    android:layout_below="@+id/tv_recom_title"
+                    android:text="单兵履带坦克"
+                    android:textColor="@color/dark"
+                    android:textSize="@dimen/small_text_size" />
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="@dimen/divider_height_middle"
+                android:layout_height="match_parent"
+                android:background="@color/hintColor"/>
+
+            <RelativeLayout
+                android:id="@+id/layout_recom2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+
+                <ImageView
+                    android:id="@+id/ImageView02"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/jingxuantuijian"
+                    android:layout_toEndOf="@+id/tv_recom_subtitle2"
+                    android:layout_toRightOf="@+id/tv_recom_subtitle2"/>
+
+                <TextView
+                    android:id="@+id/tv_recom_subtitle2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/tv_recom_title2"
+                    android:layout_below="@+id/tv_recom_title2"
+                    android:text="小锤子抢先曝"
+                    android:textSize="@dimen/small_text_size"
+                    android:textColor="@color/dark" />
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:src="@drawable/goods_recom" />
+
+                <TextView
+                    android:id="@+id/tv_recom_title2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/imageView5"
+                    android:layout_toRightOf="@+id/imageView5"
+                    android:text="精选推荐"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/blue"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/small_middle_text_size" />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+        <View
+            android:id="@+id/recom_devider"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/divider_height_middle"
+            android:background="@color/purple" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <RelativeLayout
+                android:id="@+id/layout_recom3"
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                android:layout_marginTop="@dimen/home_item_margin" >
+
+                <TextView
+                    android:id="@+id/tv_recom_title3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:paddingLeft="1dp"
+                    android:paddingRight="1dp"
+                    android:includeFontPadding="false"
+                    android:background="@drawable/text_bg_round_red"
+                    android:text="闪"
+                    android:textStyle="bold"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="@dimen/small_middle_text_size"
+                    android:textColor="@color/appWhiteColor" />
+
+                <ImageView
+                    android:id="@+id/ImageView04"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/shangou"
+                    android:layout_below="@+id/tv_recom_subtitle3"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/tv_recom_title3"
+                    android:layout_alignBottom="@+id/tv_recom_title3"
+                    android:layout_toRightOf="@+id/tv_recom_title3"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="@dimen/small_middle_text_size"
+                    android:textStyle="bold"
+                    android:textColor="@color/tv_Black"
+                    android:text="购" />
+
+                <TextView
+                    android:id="@+id/tv_recom_subtitle3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/tv_recom_title3"
+                    android:layout_below="@+id/tv_recom_title3"
+                    android:text="开春拍新款"
+                    android:textSize="@dimen/small_text_size"
+                    android:textColor="@color/dark" />
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@color/hintColor"/>
+
+            <RelativeLayout
+                android:id="@+id/layout_recom4"
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                android:layout_marginTop="@dimen/home_item_margin" >
+
+                <TextView
+                    android:id="@+id/tv_recom_title4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:paddingLeft="1dp"
+                    android:paddingRight="1dp"
+                    android:includeFontPadding="false"
+                    android:background="@drawable/text_bg_round_green"
+                    android:text="团"
+                    android:textStyle="bold"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="@dimen/small_middle_text_size"
+                    android:textColor="@color/tv_White" />
+
+                <ImageView
+                    android:id="@+id/ImageView01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/tuangou"
+                    android:layout_toRightOf="@+id/tv_recom_title4"
+                    android:layout_toEndOf="@+id/tv_recom_title4"
+                    android:layout_below="@+id/tv_recom_subtitle4"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/tv_recom_title4"
+                    android:layout_alignBottom="@+id/tv_recom_title4"
+                    android:layout_toRightOf="@+id/tv_recom_title4"
+                    android:text="购"
+                    android:textStyle="bold"
+                    android:textColor="@color/tv_Black"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="@dimen/small_middle_text_size" />
+
+                <TextView
+                    android:id="@+id/tv_recom_subtitle4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/tv_recom_title4"
+                    android:layout_below="@+id/tv_recom_title4"
+                    android:text="爆款抄底价"
+                    android:textSize="@dimen/small_text_size"
+                    android:textColor="@color/dark" />
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="@dimen/divider_height_middle"
+                android:layout_height="match_parent"
+                android:background="@color/hintColor"/>
+
+            <RelativeLayout
+                android:id="@+id/layout_recom5"
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                android:layout_marginTop="@dimen/home_item_margin" >
+
+                <TextView
+                    android:id="@+id/tv_recom_title5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:paddingLeft="1dp"
+                    android:paddingRight="1dp"
+                    android:includeFontPadding="false"
+                    android:background="@drawable/text_bg_round_yellow"
+                    android:text="京"
+                    android:textStyle="bold"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="@dimen/small_middle_text_size"
+                    android:textColor="@color/tv_White" />
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/jdzhongchou"
+                    android:layout_below="@+id/tv_recom_subtitle5"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/tv_recom_title5"
+                    android:layout_alignBottom="@+id/tv_recom_title5"
+                    android:layout_toRightOf="@+id/tv_recom_title5"
+                    android:text="东众筹"
+                    android:textStyle="bold"
+                    android:textColor="@color/tv_Black"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="@dimen/small_middle_text_size" />
+
+                <TextView
+                    android:id="@+id/tv_recom_subtitle5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/tv_recom_title5"
+                    android:layout_below="@+id/tv_recom_title5"
+                    android:text="499八核手机"
+                    android:textSize="@dimen/small_text_size"
+                    android:textColor="@color/dark" />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+        <View
+            android:id="@+id/recom_devider2"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/divider_height_middle"
+            android:layout_marginBottom="@dimen/home_item_margin"
+            android:background="@color/purple" />
+    </LinearLayout>
+
+    <com.itheima31.jdmall.widgets.ChildViewPager
+        android:layout_below="@id/goodThing_table_ll"
+        android:id="@+id/goodThing_vp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"></com.itheima31.jdmall.widgets.ChildViewPager>
+
+    <View
+        android:layout_below="@id/goodThing_vp"
+        style="@style/DividerLineStyle"/>
+
+</RelativeLayout>

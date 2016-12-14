@@ -1,0 +1,153 @@
+10
+
+dir
+279
+https://192.168.20.210/svn/JDMall/trunk/JDMall/app/src/main/java/com/itheima31/jdmall
+https://192.168.20.210/svn/JDMall
+
+
+
+2016-10-31T00:30:30.389438Z
+279
+zhou
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+68836d75-76c1-0f40-af80-29353ef817fe
+
+MainActivity.java
+file
+
+
+
+
+2016-10-29T02:25:18.758000Z
+dcd3585904958c832460db8db3716b05
+2016-10-29T01:52:59.240300Z
+211
+tao
+has-props
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4610
+
+SplashActivity.java
+file
+
+
+
+
+2016-10-31T02:44:54.379000Z
+0211f33e75244c43b4fba8c976f56f5e
+2016-10-30T15:34:39.708460Z
+277
+tao
+has-props
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6171
+
+activity
+dir
+
+adapter
+dir
+
+app
+dir
+
+base
+dir
+
+bean
+dir
+
+conf
+dir
+
+controller
+dir
+
+dcvheadline
+dir
+
+event
+dir
+
+factory
+dir
+
+fragment
+dir
+
+net
+dir
+
+protocol
+dir
+
+proxy
+dir
+
+robot
+dir
+
+services
+dir
+
+utils
+dir
+
+view
+dir
+
+widgets
+dir
+

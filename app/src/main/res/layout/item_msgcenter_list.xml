@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:background="@color/message_item_bg"
+    >
+
+
+        <ImageView android:id="@+id/item_msgcenter_list_iv"
+                   android:layout_width="48dp"
+                   android:layout_height="48dp"
+                   android:layout_marginBottom="15dp"
+                   android:layout_marginLeft="10dp"
+                   android:layout_marginTop="15dp"
+                   android:src="@mipmap/actionbar_discover_attention"
+
+        />
+
+        <TextView
+            android:id="@+id/item_msgcenter_list_maxtv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="12dp"
+            android:layout_toRightOf="@+id/item_msgcenter_list_iv"
+            android:singleLine="true"
+            android:text="这个是主要说明这个是主要说明这个是主要说明这个是主要说明这个是主要说明"
+            android:textColor="@color/appColorImportantColor"
+            android:textSize="18sp"
+        />
+
+        <TextView
+            android:id="@+id/item_msgcenter_list_mintv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/item_msgcenter_list_maxtv"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/item_msgcenter_list_iv"
+            android:singleLine="true"
+            android:text="这个是次要说明这个是次要说明这个是次要说明这个是次要说明这个是次要说明这个是次要说明"
+            android:textColor="@color/appColorImportantColorSub"
+            android:textSize="12sp"
+        />
+
+
+    </RelativeLayout>
+    
+</LinearLayout>

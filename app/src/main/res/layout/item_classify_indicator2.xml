@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:background="@drawable/classify_item_bg"
+             android:layout_height="wrap_content"
+             android:layout_margin="2dp"
+             android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_indicator"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:height="@dimen/activity_horizontal_margin"
+        android:background="#fff"
+        android:gravity="center"
+        android:text="LEVEL2"/>
+
+</FrameLayout>

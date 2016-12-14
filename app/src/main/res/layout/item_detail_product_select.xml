@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+             android:padding="10dp"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textColor="@color/appColorLessImportantr"
+            android:id="@+id/item_detail_product_select_tv_newPrice"
+            android:text="白条"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:textSize="16dp"
+            android:textColor="@color/appColorImportantColor"
+            android:layout_toRightOf="@+id/item_detail_product_select_tv_newPrice"
+            android:id="@+id/item_detail_product_des_tv_oldPrice"
+            android:text="[白条支付]即享6期免息"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <ImageView
+            android:padding="5dp"
+            android:id="@+id/item_detail_product_select_iv_pay"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/common_more"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textColor="@color/appColorLessImportantr"
+            android:id="@+id/item_detail_product_select_tv_selected"
+            android:text="已选"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:textSize="16dp"
+            android:textColor="@color/appColorImportantColor"
+            android:layout_toRightOf="@+id/item_detail_product_select_tv_selected"
+            android:id="@+id/item_detail_product_select_tv_showSelected"
+            android:text="你还没选择商品类型"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <ImageView
+            android:padding="5dp"
+            android:id="@+id/item_detail_product_select_iv_select"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/common_more"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

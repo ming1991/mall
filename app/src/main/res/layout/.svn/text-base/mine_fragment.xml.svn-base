@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:background="@color/appColorPrimary">
+
+        <ImageView
+            android:id="@+id/mine_portrait_iv"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:src="@drawable/mine_potrait_iv_default"/>
+
+        <TextView
+            android:id="@+id/mine_login_register_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/input_layout"
+            android:layout_centerInParent="true"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="15dip"
+            android:background="@drawable/login_text_bg"
+            android:gravity="center"
+            android:paddingBottom="2dip"
+            android:paddingLeft="15dip"
+            android:paddingRight="15dip"
+            android:paddingTop="4dip"
+            android:text="登录"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/SubTitleTextSize"
+            />
+
+        <RelativeLayout
+            android:id="@+id/loged_in_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="50dp"
+            android:gravity="left">
+
+            <ImageView
+                android:id="@+id/mine_login_potrait"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true"
+                android:src="@mipmap/jd_user_icon"/>
+
+            <TextView
+                android:id="@+id/login_account_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/mine_login_potrait"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="20dp"
+                android:layout_toRightOf="@+id/mine_login_potrait"
+                android:text="用户名"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/TitleTextSize"
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:id="@+id/login_vip_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/mine_login_potrait"
+                android:src="@mipmap/vip0"/>
+
+            <TextView
+                android:id="@+id/login_bounus_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/mine_login_potrait"
+                android:layout_alignLeft="@+id/login_account_name"
+                android:layout_marginBottom="20dp"
+                android:layout_toRightOf="@+id/mine_login_potrait"
+                android:text="积分0"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/TitleTextSize"
+                android:textStyle="bold"/>
+
+        </RelativeLayout>
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/pay_waiting_iv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/mine_wait_pay"/>
+
+        <ImageView
+            android:id="@+id/send_waiting_iv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/mine_wait_send"/>
+
+        <ImageView
+            android:id="@+id/receive_waiting_iv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/mine_wait_recive"/>
+
+        <ImageView
+            android:id="@+id/assess_iv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/mine_wait_assess"/>
+
+        <ImageView
+            android:id="@+id/repair_waiting_iv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/mine_wait_repair"/>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/mine_content_lv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </ListView>
+
+</LinearLayout>

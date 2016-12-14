@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:apk="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_invoice"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/app_actionbar_height">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="选择发票信息"
+                android:textColor="@color/appColorImportantColor"
+                android:textSize="@dimen/TitleTextSize"/>
+
+            <ImageView
+                android:id="@+id/act_invoice_headback"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/head_back"/>
+
+            <View
+                style="@style/DividerStyle"
+                android:layout_alignParentBottom="true">
+            </View>
+
+        </RelativeLayout>
+
+        <TextView
+            style="@style/SubTitleStyle"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="16dp"
+            android:drawableLeft="@drawable/invoice_type"
+            android:gravity="center_vertical"
+            android:text=" 发票类型:"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp">
+
+            <Button
+                android:id="@+id/invoice_personal"
+                style="@style/DeliverTypeBtnStyle"
+                android:layout_width="80dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="个人"/>
+
+            <Button
+                android:id="@+id/invoice_company"
+                style="@style/DeliverTypeBtnStyle"
+                android:layout_marginLeft="20dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="单位"/>
+
+        </LinearLayout>
+
+
+        <TextView
+            style="@style/SubTitleStyle"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="16dp"
+            android:drawableLeft="@drawable/invoice_title"
+            android:gravity="center_vertical"
+            android:text=" 发票抬头:"/>
+
+
+        <me.james.biuedittext.BiuEditText
+            android:id="@+id/invoice_title"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/edit_bg_normal"
+            android:hint="biu~biu~biu~"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:singleLine="true"
+            android:textColor="#1481ec"
+            apk:biu_duration="800"
+            apk:biu_text_color="#ff33e7"
+            apk:biu_text_scale="1.5"
+            apk:biu_text_start_size="14sp"
+            apk:biu_type="flyup"
+            />
+
+        <TextView
+            style="@style/SubTitleStyle"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="16dp"
+            android:drawableLeft="@drawable/invoice_content"
+            android:gravity="center_vertical"
+            android:text=" 发票内容:"/>
+
+        <RadioGroup
+            android:id="@+id/act_invoice_radio_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+            <RadioButton
+                android:id="@+id/invoice_radio_btn0"
+                style="@style/InvoiceRadioBtnStyle"
+                android:button="@null"
+                android:drawableLeft="@drawable/radio_btn_selector"
+                android:text="图书"/>
+
+            <RadioButton
+                android:id="@+id/invoice_radio_btn1"
+                style="@style/InvoiceRadioBtnStyle"
+                android:button="@null"
+                android:drawableLeft="@drawable/radio_btn_selector"
+                android:text="服装"/>
+
+            <RadioButton
+                android:id="@+id/invoice_radio_btn2"
+                style="@style/InvoiceRadioBtnStyle"
+                android:button="@null"
+                android:drawableLeft="@drawable/radio_btn_selector"
+                android:text="耗材"/>
+
+            <RadioButton
+                android:id="@+id/invoice_radio_btn3"
+                style="@style/InvoiceRadioBtnStyle"
+                android:button="@null"
+                android:drawableLeft="@drawable/radio_btn_selector"
+                android:text="软件"/>
+
+            <RadioButton
+                android:id="@+id/invoice_radio_btn4"
+                style="@style/InvoiceRadioBtnStyle"
+                android:button="@null"
+                android:drawableLeft="@drawable/radio_btn_selector"
+                android:text="资料"/>
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/act_invoice_confirm"
+        android:layout_width="150dp"
+        android:layout_height="@dimen/app_actionbar_height"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:background="@color/appColorPrimary"
+        android:text="确定"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/SubTitleTextSize"/>
+</RelativeLayout>

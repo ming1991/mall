@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/act_address_add_tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:drawableLeft="@drawable/head_back"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="添加地址"
+        android:textColor="@color/appColorImportantColor"
+        android:textSize="@dimen/TitleTextSize"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#dddddd"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/item_padding"
+                android:paddingLeft="@dimen/item_padding"
+                android:paddingTop="@dimen/item_padding">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/item_padding">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:text="收货人："
+                        android:textSize="@dimen/activity_uer_center_text_size_normal"/>
+
+
+                    <me.james.biuedittext.BiuEditText
+                        android:id="@+id/act_address_add_et_receiver"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:maxLength="16"
+                        android:singleLine="true"
+                        android:textColor="@color/appColorImportantColor"
+                        app:biu_duration="800"
+                        app:biu_text_color="@color/appColorPrimary"
+                        app:biu_text_scale="1.5"
+                        app:biu_text_start_size="12sp"
+                        app:biu_type="flydown"/>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:layout_marginTop="5dp"
+                    android:background="#dddddd"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/item_padding"
+                android:paddingLeft="@dimen/item_padding"
+                android:paddingTop="@dimen/item_padding">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="7dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:text="手机号码："
+                        android:textSize="@dimen/activity_uer_center_text_size_normal"/>
+
+                    <me.james.biuedittext.BiuEditText
+                        android:id="@+id/act_address_add_et_phone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:inputType="phone"
+                        android:maxLength="11"
+                        android:singleLine="true"
+                        android:textColor="@color/appColorImportantColor"
+                        app:biu_duration="800"
+                        app:biu_text_color="@color/appColorPrimary"
+                        app:biu_text_scale="1.5"
+                        app:biu_text_start_size="12sp"
+                        app:biu_type="flydown"/>
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:layout_marginTop="5dp"
+                    android:background="#dddddd"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/act_address_add_choose_contact"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/address_contact_bg"
+            android:drawableTop="@drawable/usercenter_head"
+            android:gravity="center"
+            android:text="选择联系人"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/act_address_add_area"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/item_padding">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/act_address_add_location"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="所在地区："
+                android:textSize="@dimen/activity_uer_center_text_size_normal"/>
+
+            <ImageView
+                android:id="@+id/act_address_add_next"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/go_next"/>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginTop="5dp"
+            android:background="#dddddd"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/item_padding">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="邮政编码："
+                android:textSize="@dimen/activity_uer_center_text_size_normal"/>
+
+            <me.james.biuedittext.BiuEditText
+                android:id="@+id/act_address_add_et_code"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:hint="000000"
+                android:inputType="number"
+                android:maxLength="6"
+                android:singleLine="true"
+                android:textColor="@color/appColorImportantColor"
+                android:textColorHint="#aaaaaa"
+                app:biu_duration="800"
+                app:biu_text_color="@color/appColorPrimary"
+                app:biu_text_scale="1.5"
+                app:biu_text_start_size="12sp"
+                app:biu_type="flydown"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginTop="5dp"
+                android:background="#dddddd"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/item_padding">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="街道地址："
+                android:textSize="@dimen/activity_uer_center_text_size_normal"/>
+
+            <me.james.biuedittext.BiuEditText
+                android:id="@+id/act_address_add_et_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:inputType="textAutoComplete"
+                android:maxLength="30"
+                android:singleLine="true"
+                android:textColor="@color/appColorImportantColor"
+                app:biu_duration="800"
+                app:biu_text_color="@color/appColorPrimary"
+                app:biu_text_scale="1.5"
+                app:biu_text_start_size="12sp"
+                app:biu_type="flyup"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginTop="5dp"
+                android:background="#dddddd"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/item_padding">
+
+        <ImageView
+            android:id="@+id/act_address_add_iv_check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@drawable/nocheck"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/item_padding"
+            android:layout_toRightOf="@id/act_address_add_iv_check"
+            android:text="默认地址"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginTop="5dp"
+            android:background="#dddddd"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/act_address_add_btn_save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/appColorPrimary"
+            android:text="保存地址"
+            android:textColor="@color/appWhiteColor"
+            android:textSize="@dimen/activity_uer_center_text_size_normal"
+            />
+    </RelativeLayout>
+
+</LinearLayout>

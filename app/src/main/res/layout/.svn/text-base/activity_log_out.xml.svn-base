@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/logout_setting"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/app_actionbar_height"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="设置"
+            android:textColor="@color/tv_Black"
+            android:textSize="@dimen/TitleTextSize"/>
+
+        <ImageView
+            android:id="@+id/logout_back_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="18dp"
+            android:src="@drawable/mine_back"
+            />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/mine_setting_lv"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scrollbars="none">
+    </ListView>
+
+    <Button
+        android:id="@+id/mine_logout_btn"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/app_actionbar_height"
+        android:layout_margin="10dp"
+        android:background="@color/appColorPrimary"
+        android:text="注销登录"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/SubTitleTextSize"/>
+
+</LinearLayout>
